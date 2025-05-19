@@ -1,0 +1,22 @@
+[
+    {
+        "id": "A123",
+        "date": "2025-05-20T10:00:00",
+        "specialty": "cardiología",
+        "doctor_id": "DR123",
+        "patient_type": "first",
+        "status": "scheduled",
+        "patient_age": 45,
+        "unit": "clínica central"
+    },
+    {
+        "id": "B456",
+        "date": "2025-05-22T15:00:00",
+        "specialty": "pediatría",
+        "doctor_id": "DR789",
+        "patient_type": "control",
+        "status": "confirmed",
+        "patient_age": 8,
+        "unit": "unidad pediátrica"
+    }
+]
