@@ -22,3 +22,58 @@
         "priority": 8
     }
 ]
+
+#Desafio Parte dos: Aplicar flitros
+
+[
+    {
+        "name": "Cardiología - Primera Consulta",
+        "condition": {
+            "specialty": "cardiología",
+            "patient_type": "first"
+        },
+        "priority": 10
+    },
+    {
+        "name": "Dr. Martínez - Excluir Mayores",
+        "condition": {
+            "doctor_id": "Martínez",
+            "age_range": {
+                "max": 64
+            }
+        },
+        "priority": 8
+    },
+    {
+        "name": "Pediatría - Niños en Lista de Espera",
+        "condition": {
+            "specialty": "pediatría",
+            "patient_type": "control",
+            "status": "agendada"
+        },
+        "priority": 7
+    },
+    {
+        "name": "Excluir Dr. Gómez",
+        "condition": {
+            "doctor_id": "15678432-9"
+        },
+        "priority": 1
+    },
+    {
+        "name": "Cardiología - Día 5",
+        "condition": {
+            "specialty": "cardiología",
+            "date": "5 días antes"
+        },
+        "priority": 6
+    },
+    {
+        "name": "Cardiología - Día de la Cita",
+        "condition": {
+            "specialty": "cardiología",
+            "date": "hoy"
+        },
+        "priority": 5
+    }
+]
