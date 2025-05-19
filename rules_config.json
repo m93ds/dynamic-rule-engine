@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Cardiología Primeras Consultas",
+        "condition": {
+            "specialty": "cardiología",
+            "patient_type": "first"
+        },
+        "priority": 10
+    },
+    {
+        "name": "Excluir Doctor DR789",
+        "condition": {
+            "doctor_id": "DR789"
+        },
+        "priority": 5
+    },
+    {
+        "name": "Contactar 2 días antes",
+        "condition": {
+            "date": "2025-05-20T10:00:00"
+        },
+        "priority": 8
+    }
+]
