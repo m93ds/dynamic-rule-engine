@@ -1,0 +1,5 @@
+#  `requirements.txt` (Dependencias)
+
+```txt
+# No se requieren dependencias externas adicionales
+# Solo se requiere Python 3.11+ con anotaciones de tipos
